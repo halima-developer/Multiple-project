@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    background-color: #1A1244;
+    display: flex;
+    justify-content: space-between;
+    padding:10px 100px;
+}
+nav .logo{
+    color: white;
+    font-size: 20px;
+}
+nav ul{
+    display: flex;
+}
+nav ul li {
+    list-style: none;
+    margin: 10px 15px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.5s;
+}
+nav ul li a:hover{
+    color: red;
+    background-color: black;
+    padding: 10px 20px;
+    border-radius:10px;
+}
+
+/* hero area code start hare */
+ header{
+    background-image: url("img/website\ banner.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    padding: 200px 0;
+ }
+ .search-icon-parent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ .search-icon-parent input{
+    width: 400px;
+    height:30px;
+    padding: 0 10px;
+    font-size: 18px;
+    border-radius:2px;
+    border: none;
+ }
+ .search-icon-parent i{
+    color: red;
+    background-color: green;
+    width:30px;
+    height:30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2px;
+    margin-left: -10px;
+ }
