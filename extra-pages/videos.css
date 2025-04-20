@@ -1,7 +1,8 @@
 *{
-    margin: 0;
     padding: 0;
+    margin: 0;
 }
+/* navigation style code here */
 nav{
     background-color: #1A1244;
     display: flex;
@@ -33,42 +34,9 @@ nav ul li a{
 nav ul li a:hover{
     color: red;
     background-color: black;
-    padding: 10px 15px;
+    padding: 10px 20px;
     border-radius:10px;
 }
-
-/* hero area code start hare */
- header{
-    background-image: url("img/website\ banner.jpg");
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-    padding: 200px 0;
- }
- .search-icon-parent {
-    display: flex;
-    justify-content: center;
-    align-items: center;
- }
- .search-icon-parent input{
-    width: 400px;
-    height:30px;
-    padding: 0 10px;
-    font-size: 18px;
-    border-radius:2px;
-    border: none;
- }
- .search-icon-parent i{
-    color: red;
-    background-color: green;
-    width:30px;
-    height:30px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 2px;
-    margin-left: -10px;
- }
 
 /* main section code here */
 main{
@@ -112,6 +80,7 @@ main{
 .single-item{
     height: 250px;
     border:3px solid  #939090;
+    
 }
 .single-item img{
     width: 100%;
@@ -155,60 +124,4 @@ main{
 .main-bottom-parent div a:first-child{
     background-color: #10ac84;
     color: antiquewhite;
-}
-
-/* footer section style code here */
-footer{
-    background: #8e44ad;
-    color: white;
-}
-.footer-section-parent{
-    width:900px;
-    margin: 0 auto;
-    display: grid;
-    grid-template-columns:repeat(3, 1fr) ;
-    justify-content:space-between;
-    grid-gap:50px;
-    padding-top: 50px;
-}
-.footer-first-item h3{
-    font-size:22px;
-}
-.footer-first-item p{
-    margin:30px 0;
-    font-size:14px;
-}
-.footer-second-section h3{
-    font-size: 22px;
-    margin-bottom:30px;
-}
-.footer-second-section p{
-    font-size:14px;
-    margin-bottom: 10px;
-}
-
-
-.footer-third-item div a{
-    text-decoration: none;
-    background-color: #1A1244;
-    padding:10px;
-    margin-right:5px;
-    border-radius: 4px;
-    text-align: center;
-
-}
-
-.footer-third-item div a i{
-    color: white;
-    font-size:18px;
-}
-.footer-third-item div{
-    margin-bottom:30px;
-}
-.footer-third-item p{
-    font-size:14px;
-}
-.footer-third-item p:nth-child(3){
-    margin-top: 10px;
-    margin-bottom:50px;
 }
