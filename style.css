@@ -182,9 +182,13 @@ footer{
     font-size: 22px;
     margin-bottom:30px;
 }
-.footer-second-section p{
+.footer-second-section p a{
     font-size:14px;
-    margin-bottom: 10px;
+    text-decoration: none;
+    color: white;
+}
+.footer-second-section p{
+   margin-bottom: 10px;
 }
 
 
